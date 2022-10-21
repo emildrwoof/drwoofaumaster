@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "16627347461a98f053": {
+      "type": "dr-woof-hero",
+      "disabled": true,
+      "settings": {
+        "pad": "30px",
+        "desktop_positioning": 0,
+        "height": 90,
+        "mobile_height": 50,
+        "image_webp_pc": "",
+        "image_webp_mobile": ""
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "collection_image_enable": true,
+        "description_enable": true
+      }
+    },
+    "collection-filters": {
+      "type": "collection-filters",
+      "blocks": {
+        "20c7fa58-7458-48bc-91f1-caa639df4a6f": {
+          "type": "color_group",
+          "settings": {
+            "title": "Color",
+            "tag_list": "Burgundy \nHeather grey \nGreen"
+          }
+        },
+        "50a87fe8-fb21-41e7-aeb4-f8e712f84045": {
+          "type": "tags_group",
+          "settings": {
+            "title": "Tag Group",
+            "tag_list": "First tag \nSecond tag \nThird tag"
+          }
+        }
+      },
+      "block_order": [
+        "20c7fa58-7458-48bc-91f1-caa639df4a6f",
+        "50a87fe8-fb21-41e7-aeb4-f8e712f84045"
+      ],
+      "settings": {
+        "filter_type": "dropdown",
+        "tags_combine": true,
+        "collection_sort_enable": true
+      }
+    },
+    "main": {
+      "type": "collection-new-template",
+      "settings": {
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "description_bottom": false
+      }
+    }
+  },
+  "order": [
+    "16627347461a98f053",
+    "collection-header",
+    "collection-filters",
+    "main"
+  ]
+}
